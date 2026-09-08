@@ -10,10 +10,11 @@
 </p>
 
 [![Go Version](https://img.shields.io/badge/Golang-1.26+-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
+[![Release](https://img.shields.io/github/v/release/hsh34811-hash/YukkiMusic-Raven?style=for-the-badge&color=blueviolet)](https://github.com/hsh34811-hash/YukkiMusic-Raven/releases)
+[![Stars](https://img.shields.io/github/stars/hsh34811-hash/YukkiMusic-Raven?style=for-the-badge&logo=github&color=ffd700)](https://github.com/hsh34811-hash/YukkiMusic-Raven/stargazers)
 [![Telegram](https://img.shields.io/badge/Telegram-@Raven__xx24-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Raven_xx24)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Share](https://img.shields.io/badge/Share_on-Telegram-0088cc?style=for-the-badge&logo=telegram)](https://t.me/share/url?url=https%3A%2F%2Fgithub.com%2Fhsh34811-hash%2FYukkiMusic-Raven&text=%F0%9F%8E%B5%20YukkiMusic%20Raven%20Edition%202026%20-%20Next-Gen%20Go%20Music%20Streaming%20Bot)
 [![License](https://img.shields.io/badge/License-GPL%20v3-green?style=for-the-badge)](LICENSE)
-[![Engine](https://img.shields.io/badge/Engine-ntgcalls%20Native-orange?style=for-the-badge)](https://github.com/hsh34811-hash/YukkiMusic-Raven)
 [![Status](https://img.shields.io/badge/Production-2026%20Ready-brightgreen?style=for-the-badge)](https://github.com/hsh34811-hash/YukkiMusic-Raven)
 
 <br/>
