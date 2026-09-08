@@ -607,6 +607,17 @@ restart_btn_replay: "Replay the Song"
 restart_confirm_bot: "♻️ Restarting the bot..."
 restart_confirm_replay_done: "⏮️ Current song replayed successfully."
 
+# 🔄 Update
+update_checking: "🔍 <b>Checking for updates from upstream repository...</b>"
+update_no_git: "❌ <b>Git command line tool is not installed on the system. Cannot auto-update.</b>"
+update_fetch_fail: "❌ <b>Failed to fetch updates from upstream:</b>\n<code>{error}</code>"
+update_uptodate: "✅ <b>Bot is already up-to-date!</b>\n\nNo new commits found on upstream branch."
+update_pulling: "🚀 <b>Found {count} new update(s)!</b>\n\n<b>Recent Commits:</b>\n<code>{log}</code>\n\n<i>Pulling latest code changes...</i>"
+update_pull_fail: "❌ <b>Failed to pull updates from git:</b>\n<code>{error}</code>"
+update_building: "⚙️ <b>Compiling new application binary... Please wait.</b>"
+update_build_fail: "❌ <b>Failed to rebuild application:</b>\n<code>{error}</code>"
+update_success: "🎉 <b>Update completed successfully ({count} commits applied)!</b>\n\n<i>Restarting bot process now...</i>"
+
 
 room_not_active_cb: "⚠️ Nothing playing right now."
 room_no_active: "⚠️ <b>No active playback.</b>\n\n<i>There's nothing playing right now.</i>"

@@ -1,9 +1,9 @@
 {
-    "name": "YukkiMusic",
-    "description": "A Telegram bot that streams music into group voice chats with seamless playback and control.",
-    "keywords": ["telegram", "bot", "music", "go", "voice-chat"],
-    "repository": "https://github.com/TheTeamVivek/YukkiMusic",
-    "website": "https://github.com/TheTeamVivek/YukkiMusic",
+    "name": "YukkiMusic - Raven Edition",
+    "description": "A high-performance 2026 Go-based Telegram music bot with seamless playback, anti-block cookies, and autonomous update system.",
+    "keywords": ["telegram", "bot", "music", "go", "voice-chat", "raven"],
+    "repository": "https://github.com/hsh34811-hash/YukkiMusic-RavenEdition",
+    "website": "https://t.me/Raven_xx24",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -73,12 +73,12 @@
         },
         "SUPPORT_CHAT": {
             "description": "The URL of your support chat.",
-            "value": "https://t.me/TheTeamVk",
+            "value": "https://t.me/Raven_xx24",
             "required": false
         },
         "SUPPORT_CHANNEL": {
             "description": "The URL of your support channel.",
-            "value": "https://t.me/TheTeamVivek",
+            "value": "https://t.me/Raven_xx24",
             "required": false
         },
         "COOKIES_LINK": {

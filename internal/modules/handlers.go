@@ -60,6 +60,11 @@ var handlers = []MsgHandlerDef{
 		Handler: handleRestart,
 		Filters: []telegram.Filter{ownerFilter, ignoreChannelFilter},
 	},
+	{
+		Pattern: "(update|gitpull|upgrade)",
+		Handler: handleUpdate,
+		Filters: []telegram.Filter{ownerFilter, ignoreChannelFilter},
+	},
 
 	{
 		Pattern: "(addsudo|addsudoer|sudoadd)",

@@ -53,6 +53,8 @@ var (
 	SupportChat         string
 	SupportChannel      string
 	CookiesLink         string
+	UpstreamRepo        string
+	UpstreamBranch      string
 	SetCmds             bool
 	MaxAuthUsers        int
 	StartImages         []string
@@ -127,9 +129,11 @@ func loadConfig() {
 	DurationLimit = int(getInt64("DURATION_LIMIT", 4200))
 	LeaveOnDemoted = getBool("LEAVE_ON_DEMOTED", false)
 	QueueLimit = int(getInt64("QUEUE_LIMIT", 24))
-	SupportChat = getString("SUPPORT_CHAT", "https://t.me/TheTeamVk")
-	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/TheTeamVivek")
+	SupportChat = getString("SUPPORT_CHAT", "https://t.me/Raven_xx24")
+	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/Raven_xx24")
 	CookiesLink = getString("COOKIES_LINK", "")
+	UpstreamRepo = getString("UPSTREAM_REPO", "https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git")
+	UpstreamBranch = getString("UPSTREAM_BRANCH", "main")
 	SetCmds = getBool("SET_CMDS", false)
 	MaxAuthUsers = int(getInt64("MAX_AUTH_USERS", 25))
 	StartImages = getStringSlice("START_IMAGES", nil)
