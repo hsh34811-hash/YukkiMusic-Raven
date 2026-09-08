@@ -12,7 +12,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram)](https://t.me/Raven_xx24)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-GPL%20v3-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active%20%26%20Maintained%202026-brightgreen?style=for-the-badge)](https://github.com/hsh34811-hash/YukkiMusic-RavenEdition)
+[![Status](https://img.shields.io/badge/Status-Active%20%26%20Maintained%202026-brightgreen?style=for-the-badge)](https://github.com/hsh34811-hash/YukkiMusic-Raven)
 
 **An ultra-high-performance, next-generation Telegram Group Voice Chat Music & Video Streaming Bot.**  
 *Re-engineered from the ground up in Go (Golang) for sub-second latency, zero memory leaks, and autonomous in-chat updates.*
@@ -59,7 +59,7 @@ Forget logging into your VPS or cloud console to update your bot. As the bot own
 ```
 
 **What happens behind the scenes:**
-1. Bot queries the upstream repository (`https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git`).
+1. Bot queries the upstream repository (`https://github.com/hsh34811-hash/YukkiMusic-Raven.git`).
 2. Displays incoming commit count and changelog summary directly in Telegram.
 3. Automatically executes `git pull`.
 4. Rebuilds the Go binary (`go build`).
@@ -88,8 +88,8 @@ YouTube blocks cloud server IPs by default. To make YouTube streaming work 100% 
 
 ```bash
 # Clone the repository
-git clone https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git
-cd YukkiMusic-RavenEdition
+git clone https://github.com/hsh34811-hash/YukkiMusic-Raven.git
+cd YukkiMusic-Raven
 
 # Configure environment variables
 cp sample.env .env
@@ -103,8 +103,8 @@ docker compose up -d --build
 
 ```bash
 # Clone the repository
-git clone https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git
-cd YukkiMusic-RavenEdition
+git clone https://github.com/hsh34811-hash/YukkiMusic-Raven.git
+cd YukkiMusic-Raven
 
 # Configure environment variables
 cp sample.env .env

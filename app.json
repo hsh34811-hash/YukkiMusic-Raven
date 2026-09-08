@@ -2,7 +2,7 @@
     "name": "YukkiMusic - Raven Edition",
     "description": "A high-performance 2026 Go-based Telegram music bot with seamless playback, anti-block cookies, and autonomous update system.",
     "keywords": ["telegram", "bot", "music", "go", "voice-chat", "raven"],
-    "repository": "https://github.com/hsh34811-hash/YukkiMusic-RavenEdition",
+    "repository": "https://github.com/hsh34811-hash/YukkiMusic-Raven",
     "website": "https://t.me/Raven_xx24",
     "stack": "container",
     "env": {

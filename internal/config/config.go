@@ -132,7 +132,7 @@ func loadConfig() {
 	SupportChat = getString("SUPPORT_CHAT", "https://t.me/Raven_xx24")
 	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/Raven_xx24")
 	CookiesLink = getString("COOKIES_LINK", "")
-	UpstreamRepo = getString("UPSTREAM_REPO", "https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git")
+	UpstreamRepo = getString("UPSTREAM_REPO", "https://github.com/hsh34811-hash/YukkiMusic-Raven.git")
 	UpstreamBranch = getString("UPSTREAM_BRANCH", "main")
 	SetCmds = getBool("SET_CMDS", false)
 	MaxAuthUsers = int(getInt64("MAX_AUTH_USERS", 25))

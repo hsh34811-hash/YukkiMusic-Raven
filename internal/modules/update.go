@@ -3,7 +3,7 @@
  * ○ High-performance Go-based Telegram music streaming bot.
  *
  * Modified by ✘ RAVEN
- * Repository: https://github.com/hsh34811-hash/YukkiMusic-RavenEdition
+ * Repository: https://github.com/hsh34811-hash/YukkiMusic-Raven
  */
 
 package modules
@@ -54,7 +54,7 @@ func handleUpdate(m *tg.NewMessage) error {
 	upstream := config.UpstreamRepo
 	branch := config.UpstreamBranch
 	if upstream == "" {
-		upstream = "https://github.com/hsh34811-hash/YukkiMusic-RavenEdition.git"
+		upstream = "https://github.com/hsh34811-hash/YukkiMusic-Raven.git"
 	}
 	if branch == "" {
 		branch = "main"
